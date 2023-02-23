@@ -12,7 +12,7 @@ export default function Isi() {
         // wrapperClassName="wrapperClassName"
         // editorClassName="editorClassName"
         // onEditorStateChange={this.onEditorStateChange}
-        />;
+        />
     </div>
   )
 }

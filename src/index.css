@@ -1,3 +1,69 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* #idHead input:focus-visible{
+    border: 1px solid white !important;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+#target.V2{
+    font-family: 'Quicksand', sans-serif !important;
+}
+
+#target.V3{
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    max-width: auto !important;
+    overflow-x: hidden !important;
+}
+
+
+/* .notificationWrapper {
+    @apply flex flex-row items-center justify-between w-96 bg-gray-900 px-4 py-6 text-white shadow-2xl hover:shadow-none transform-gpu translate-y-0 hover:translate-y-1 rounded-xl relative transition-all duration-500 ease-in-out;
+  }
+  
+  .iconWrapper {
+    @apply text-xl;
+  }
+  
+  .contentWrapper {
+    @apply flex flex-col items-start justify-center ml-4 cursor-default;
+  }
+  
+  .contentWrapper h1 {
+    @apply text-base text-gray-200 font-semibold leading-none tracking-wider;
+  }
+  
+  .contentWrapper p {
+    @apply text-sm text-gray-400 mt-2 leading-relaxed tracking-wider;
+  }
+  
+  .closeIcon {
+    @apply absolute top-2 right-2 cursor-pointer text-lg;
+  }
+ */
+
+
+
+@media print {
+  .offPrint {
+     display:none;
+  }
+   #rdw-wrapper-7342 .rdw-editor-toolbar {
+    display:none;
+  }
+  .pagebreak {
+    clear: both;
+    page-break-after: always;
+}
+}
+
+/* .mobileHome::-webkit-scrollbar {
+  display: none;
+} */
