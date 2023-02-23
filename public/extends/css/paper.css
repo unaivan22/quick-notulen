@@ -20,6 +20,8 @@ body.letter.landscape .sheet { width: 280mm; height: 215mm }
 body.legal            .sheet { width: 216mm; height: 356mm }
 body.legal.landscape  .sheet { width: 357mm; height: 215mm }
 
+body.A4-long           .sheet { width: 210mm; height: auto; min-height: 296mm; }
+
 /** Padding area **/
 .sheet.padding-10mm { padding: 10mm }
 .sheet.padding-15mm { padding: 15mm }

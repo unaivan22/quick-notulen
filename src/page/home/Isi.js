@@ -5,7 +5,7 @@ import "react-draft-wysiwyg/dist/react-draft-wysiwyg.css";
 
 export default function Isi() {
   return (
-    <div>
+    <div  className='mt-12 mb-12'>
       <Editor
         // editorState={editorState}
         // toolbarClassName="toolbarClassName"
