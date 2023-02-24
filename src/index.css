@@ -51,8 +51,26 @@ body {
   .offPrint {
      display:none;
   }
-   .rdw-editor-wrapper .rdw-editor-toolbar {
+   /* .rdw-editor-wrapper .rdw-editor-toolbar {
     display:none;
+  } */
+
+  .quill{
+    padding: 0 !important;
+    border: none !important;
+  }
+
+  .quill .ql-toolbar{
+    display: none !important;
+  }
+
+  .quill .ql-container {
+    border: none !important;
+    padding: 0 !important;
+  }
+
+  .quill .ql-editor {
+    padding: 0 !important;
   }
 
   body{
