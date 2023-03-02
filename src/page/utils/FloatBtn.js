@@ -1,7 +1,7 @@
 import React from 'react'
 import { IoPrint } from 'react-icons/io5'
 import { useNavigate } from 'react-router-dom';
-// import { Walktour } from 'walktour';
+import { Walktour } from 'walktour';
 
 export default function FloatBtn() {
   function print(){
@@ -15,11 +15,11 @@ export default function FloatBtn() {
                 <IoPrint size={42} />
             </a>
         </div>
-        {/* <Walktour
+        <Walktour
           steps={[
             {selector: "#StepTitle", title: "Edit Text", description: "Tap or click on any text for edit"}
           ]}
-        /> */}
+        />
     </div>
   )
 }
